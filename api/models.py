@@ -9,3 +9,5 @@ class Session(models.Model):
         local_date = self.created_at - timedelta(hours=4)
         return local_date.strftime('%h %d, %Y at %I:%M:%S %p')
 
+    def time_in_minutes(self):
+        return self.seconds / 60
