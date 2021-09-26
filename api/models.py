@@ -10,4 +10,4 @@ class Session(models.Model):
         return local_date.strftime('%h %d, %Y at %I:%M:%S %p')
 
     def time_in_minutes(self):
-        return self.seconds / 60
+        return int(self.seconds / 60)
