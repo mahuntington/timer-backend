@@ -27,7 +27,7 @@ SECRET_KEY = 'kwuq4$3jeof1(0!k7)+1@40t5s3pe5uo2-amnsl50rsrhwncs0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'shrouded-depths-07664.herokuapp.com', 'practice-sessions.artisan.al']
+ALLOWED_HOSTS = ['localhost', 'shrouded-depths-07664.herokuapp.com', 'practice-sessions.artisan.al', 'curved-tickseed-zhika4in00u5wtfe7mhemocx.herokudns.com']
 
 
 # Application definition
